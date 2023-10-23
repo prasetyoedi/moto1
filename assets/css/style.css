@@ -123,6 +123,7 @@ nav {
 
 .btn-cta-hero {
     text-align: end;
+    padding-right: 24px;
 }
 
 .cta-hero button {
@@ -194,6 +195,7 @@ nav {
     .btn-cta-hero {
         text-align: center;
         margin-top: 10px;
+        padding-right: 0;
     }
 }
 
@@ -308,4 +310,77 @@ table {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+
+
+
+/* Upcoming Race */
+#upcoming .bg-img {
+    background-image: url('../img/upcoming-race.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+#upcoming .content {
+    padding-top: 200px;
+    padding-left: 24px;
+}
+
+#upcoming .heading {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#upcoming .sub-heading {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#upcoming .content p {
+    align-self: stretch;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+#upcoming button {
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #F00;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    #upcoming .content{
+        padding: 25px;
+        padding-top: 75px;
+    }
+    #upcoming .heading{
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+    #upcoming .sub-heading{
+        margin-bottom: 5px;
+    }
 }
