@@ -31,6 +31,19 @@ nav {
     color: #fff;
 }
 
+.nav-link:hover {
+    color: #F00;
+}
+
+.login:hover {
+    color: #F00;
+}
+
+.register:hover {
+    color: #F00;
+}
+
+
 .navbar-toggler {
     background-color: #fff;
 }
@@ -100,14 +113,12 @@ nav {
 .cta-hero-text {
     color: rgba(255, 255, 255, 0.70);
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .cta-hero .heading {
     font-size: 32px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
@@ -116,7 +127,6 @@ nav {
     color: rgba(255, 255, 255, 0.70);
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
@@ -138,7 +148,6 @@ nav {
     text-align: center;
     font-family: Ubuntu;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     border: none
@@ -207,7 +216,6 @@ section {
 /* top-athlete */
 .title {
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 48px;
@@ -218,6 +226,7 @@ section {
     gap: 16px;
     border: none;
     background: #0C0C0C;
+    color: #fff;
 }
 
 .card-rank {
@@ -231,7 +240,6 @@ section {
 
 .card-point {
     font-size: 32px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     color: rgba(255, 255, 255, 0.50);
@@ -243,7 +251,6 @@ section {
     color: #FFF;
     font-family: Ubuntu;
     font-size: 32px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
@@ -252,7 +259,6 @@ section {
     color: rgba(255, 255, 255, 0.70);
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
@@ -287,7 +293,6 @@ section {
     color: rgba(255, 255, 255, 0.70);
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-top: -35px;
@@ -307,7 +312,6 @@ table {
     color: rgba(255, 255, 255, 0.50);
     font-family: Ubuntu;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
@@ -330,14 +334,12 @@ table {
 
 #upcoming .heading {
     font-size: 32px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 #upcoming .sub-heading {
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
@@ -347,7 +349,6 @@ table {
     color: rgba(255, 255, 255, 0.70);
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
 }
@@ -365,22 +366,81 @@ table {
     text-align: center;
     font-family: Ubuntu;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     border: none;
 }
 
 @media screen and (max-width: 768px) {
-    #upcoming .content{
+    #upcoming .content {
         padding: 25px;
         padding-top: 75px;
     }
-    #upcoming .heading{
+
+    #upcoming .heading {
         font-size: 26px;
         margin-bottom: 5px;
     }
-    #upcoming .sub-heading{
+
+    #upcoming .sub-heading {
         margin-bottom: 5px;
     }
+}
+
+
+
+/* Latest Updates */
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+    align-self: stretch;
+}
+
+.card-text {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    color: #fff;
+}
+
+footer .text {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    /* 32px */
+}
+
+footer .title {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.129px;
+}
+
+footer .sub-title {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.129px;
+}
+
+.footer {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
 }
