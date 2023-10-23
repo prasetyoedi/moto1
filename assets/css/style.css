@@ -184,10 +184,10 @@ nav {
         line-height: normal;
     }
 
-    .container {
-        padding-right: 25px;
-        padding-left: 25px;
-    }
+    /* .container {
+        padding-right: 7x;
+        padding-left: 7px;
+    } */
 
     /* .content{
         padding-top: 100px;
@@ -315,9 +315,6 @@ table {
     font-weight: 700;
     line-height: normal;
 }
-
-
-
 
 /* Upcoming Race */
 #upcoming .bg-img {
