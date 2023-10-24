@@ -382,6 +382,10 @@ table {
     #upcoming .sub-heading {
         margin-bottom: 5px;
     }
+
+    .country {
+        margin-top: -20px;
+    }
 }
 
 
@@ -490,4 +494,37 @@ a {
 
 .form-control::placeholder {
     color: rgba(255, 255, 255, 0.50);
-  }
+}
+
+
+
+/* Calender */
+#calender-hero {
+    background-image: url('../img/calender/calender.png');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+#calender-hero .title {
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#calender-hero .sub-title {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -40px;
+}
+
+#calender-hero .content {
+    padding-top: 70px;
+}
