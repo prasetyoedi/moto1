@@ -441,3 +441,53 @@ footer .sub-title {
     font-style: normal;
     font-weight: 400;
 }
+
+
+a {
+    text-decoration: none;
+}
+
+/* Beda File */
+
+#riders-hero {
+    background-image: url('../img/hero-riders.png');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+#riders-hero .title {
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#riders-hero .sub-title {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -40px;
+}
+
+#riders-hero .content {
+    padding-top: 70px;
+}
+
+.search {
+    display: flex;
+    width: 367px;
+    padding: 12px 16px;
+    justify-content: space-between;
+    align-items: center;
+    background: #161616;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.50);
+  }
