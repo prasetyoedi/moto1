@@ -61,7 +61,7 @@ nav {
 }
 
 .navbar-nav {
-    margin-left: 225px;
+    margin-left: 350px;
     color: #fff;
 }
 
@@ -958,7 +958,7 @@ a {
 }
 
 .text-login1-red {
-    color: #F00;
+    color: #dc3545;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -966,6 +966,25 @@ a {
     line-height: normal;
 }
 
+
+.detail-circuit-text {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detail-result {
+    margin-top: -100px;
+    margin-bottom: -70px;
+}
+
+.track {
+    padding-right: 50px;
+    padding-left: 50px;
+}
 
 @media screen and (max-width: 768px) {
     .news-detail-hero {
@@ -980,8 +999,17 @@ a {
         padding-right: 20px;
     }
 
+    .title {
+        font-size: 24px;
+    }
 
+    .detail-result {
+        margin-top: -100px;
+        margin-bottom: 20px;
+    }
 
-
-
+    iframe {
+        height: 100%;
+        width: 100%;
+    }
 }
