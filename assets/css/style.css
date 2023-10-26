@@ -31,16 +31,24 @@ nav {
     color: #fff;
 }
 
+.nav-link {
+    color: rgba(255, 255, 255, 0.70);
+}
+
 .nav-link:hover {
-    color: #F00;
+    color: #fff;
+    font-style: bolder;
+    font-size: 17px;
 }
 
 .login:hover {
-    color: #F00;
+    color: #fff;
+    font-style: bolder;
 }
 
 .register:hover {
-    color: #F00;
+    color: #fff;
+    font-style: bolder;
 }
 
 
@@ -50,8 +58,18 @@ nav {
 
 .navbar-nav {
     margin-left: 225px;
+    color: #fff;
 }
 
+.aktif {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+/* .nav-link.active {
+    border-bottom: 4px solid #FDC827;
+    color: #F00;
+} */
 
 /* Hero */
 #hero {
@@ -298,7 +316,6 @@ section {
     margin-top: -35px;
 }
 
-/* Ganti warna latar belakang sel tabel */
 table {
     border: none;
 }
@@ -527,4 +544,227 @@ a {
 
 #calender-hero .content {
     padding-top: 70px;
+}
+
+#calender {
+    margin-top: -100px;
+}
+
+.result {
+    margin-top: 24px;
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border: 1px solid #FFF;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+/* detail-race */
+#detail-race .number {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 200px;
+}
+
+#detail-race .name {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#detail-race .championship {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#table-spec {
+    margin-top: 75px;
+}
+
+#table-spec .position {
+    border-left: 2px solid #F00;
+    padding-left: 15px;
+    /* Jarak dari garis ke kontennya */
+    margin-bottom: 15px;
+}
+
+
+#table-spec .title {
+    color: rgba(255, 255, 255, 0.50);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#table-spec .number {
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    margin-top: -20px;
+}
+
+#motor {
+    margin-top: -130px;
+}
+
+.motor-spec .sub-heading {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.motor-spec .heading {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+#about-detail-hero {
+    margin-top: -200px;
+    padding-left: 339px;
+    padding-right: 339px;
+}
+
+#about-detail-hero .heading {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#about-detail-hero .sub-heading {
+    color: #FFF;
+    text-align: right;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#about-detail-hero .col-md-6 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#about-detail-hero .text {
+    margin-top: 32px;
+}
+
+#about-detail-hero p {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 159.023%;
+}
+
+@media screen and (max-width: 768px) {
+    #table-spec {
+        padding-left: 10px;
+    }
+
+    #detail-race .number {
+        font-size: 32px;
+    }
+
+    #detail-race .name {
+        font-size: 32px;
+    }
+
+    #detail-race .championship {
+        font-size: 20px;
+    }
+
+    #detail-race .order2 {
+        order: 2;
+        margin-top: -200px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #detail-race .order1 {
+        order: 1;
+    }
+
+    #table-spec .number {
+        margin-top: -40px;
+        font-size: 32px;
+    }
+
+    #motor {
+        margin-top: -80px;
+    }
+
+
+    .motor-spec .sub-heading {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .motor-spec .heading {
+        font-size: 16px;
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    .col-md-9,
+    .col-md-3 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #about-detail-hero {
+        padding-top: 100px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #about-detail-hero .sub-heading {
+        margin-top: -30px;
+        font-size: 16px;
+    }
+
+    #about-detail-hero .col-md-6 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
