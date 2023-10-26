@@ -12,6 +12,10 @@ body {
     background: #111;
 }
 
+a {
+    color: #fff;
+}
+
 nav {
     background: #0E0E0E;
 }
@@ -62,8 +66,8 @@ nav {
 }
 
 .aktif {
-    border-bottom: 1px solid #fff;
     color: #fff;
+    font-weight: bold;
 }
 
 /* .nav-link.active {
@@ -291,7 +295,7 @@ section {
     }
 
     .title {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .card-rank {
@@ -307,22 +311,62 @@ section {
 
 /* race */
 
-.date {
+#race .date {
     color: rgba(255, 255, 255, 0.70);
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
     margin-top: -35px;
+    margin-bottom: 30px;
 }
 
-table {
+#race .table {
     border: none;
 }
 
-.custom-bg {
+
+#race th {
+    border: none;
+    padding: 8px;
+    text-align: center;
     background-color: #0C0C0C;
-    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+#race td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+    background-color: #0C0C0C;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+#race th {
+    color: rgba(255, 255, 255, 0.70);
+}
+
+#race td {
+    color: #fff
+}
+
+#race .position {
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#race .points {
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .number {
@@ -332,6 +376,8 @@ table {
     font-weight: 700;
     line-height: normal;
 }
+
+
 
 /* Upcoming Race */
 #upcoming .bg-img {
@@ -406,12 +452,12 @@ table {
 }
 
 
-
 /* Latest Updates */
 .card-title {
     font-size: 20px;
     font-weight: 700;
     align-self: stretch;
+    margin-top: -20px;
 }
 
 .card-text {
@@ -468,7 +514,16 @@ a {
     text-decoration: none;
 }
 
-/* Beda File */
+
+
+
+
+
+
+
+
+
+/* Beda halaman */
 
 #riders-hero {
     background-image: url('../img/hero-riders.png');
@@ -566,11 +621,20 @@ a {
     line-height: normal;
 }
 
+.get-tiket {
+    margin-top: 20px;
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: #F00;
+}
 
 
-
-/* detail-race */
-#detail-race .number {
+/* detail-rider */
+#detail-rider .number {
     color: rgba(255, 255, 255, 0.50);
     font-family: Ubuntu;
     font-size: 64px;
@@ -580,14 +644,14 @@ a {
     margin-top: 200px;
 }
 
-#detail-race .name {
+#detail-rider .name {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-#detail-race .championship {
+#detail-rider .championship {
     color: rgba(255, 255, 255, 0.70);
     font-family: Inter;
     font-size: 32px;
@@ -702,26 +766,26 @@ a {
         padding-left: 10px;
     }
 
-    #detail-race .number {
+    #detail-rider .number {
         font-size: 32px;
     }
 
-    #detail-race .name {
+    #detail-rider .name {
         font-size: 32px;
     }
 
-    #detail-race .championship {
+    #detail-rider .championship {
         font-size: 20px;
     }
 
-    #detail-race .order2 {
+    #detail-rider .order2 {
         order: 2;
         margin-top: -200px;
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    #detail-race .order1 {
+    #detail-rider .order1 {
         order: 1;
     }
 
@@ -767,4 +831,95 @@ a {
         margin-top: 5px;
         margin-bottom: 5px;
     }
+}
+
+
+
+/* News */
+#news {
+    background-image: url('../img/news/hero.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+#news .heading {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#news button {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #FFF;
+    margin-top: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #news {
+        background-image: url('../img/hero.png');
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+    }
+
+    #news .heading {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .view-more {
+        margin-top: -75px;
+    }
+
+    #news-category {
+        margin-top: 32px;
+    }
+}
+
+
+/* News detail */
+
+.news-detail-hero {
+    background-image: url('../img/news-detail.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.news-detail-hero .title {
+    padding-top: 50px;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.news-detail-hero .sub-title {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -30px;
+}
+
+/* .news-detail-hero{
+    margin-top: -200px;
+    padding-left: 339px;
+    padding-right: 339px;
+} */
+
+#news-detail .content {
+    padding-left: 400px;
+    padding-right: 400px;
 }
