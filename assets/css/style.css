@@ -61,7 +61,7 @@ nav {
 }
 
 .navbar-nav {
-    margin-left: 350px;
+    margin-left: 300px;
     color: #fff;
 }
 
@@ -968,7 +968,7 @@ a {
 
 
 .detail-circuit-text {
-    color: #FFF;
+    color: rgba(255, 255, 255, 0.70);
     font-family: Ubuntu;
     font-size: 18px;
     font-style: normal;
@@ -985,6 +985,29 @@ a {
     padding-right: 50px;
     padding-left: 50px;
 }
+
+.about-detail-circuit {
+    margin-top: -100px;
+}
+
+.galleri-section {
+    margin-top: -100px;
+}
+
+.detail-circuit-text:hover {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.community {
+    margin-top: -80px;
+}
+
+.community .card{
+    width: 100%;
+}
+
 
 @media screen and (max-width: 768px) {
     .news-detail-hero {
